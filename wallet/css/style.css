@@ -1,0 +1,20 @@
+.container {
+  background-color: ghostwhite;
+}
+.input-group {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.transaction_credit {
+  background-color: #dff0d8 !important;
+}
+
+.transaction_debit {
+  background-color: #f2dede !important;
+}
+
+
+#studentdetailstable tr td:last-child {
+  min-width: 100px !important;
+}

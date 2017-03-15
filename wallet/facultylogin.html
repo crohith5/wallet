@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Faculty Login Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/loginform.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <a href="wallet_home.html"> <img class="img img-responsive center-block" id="faclogo" src="images/logo.png" alt=""></a>
+      </div>
+      <div class="row" id="faclogin">
+        <div class="col-md-6 col-md-push-3">
+          <form class="form" action="faclogin.php" method="POST">
+            <div class="form-group">
+              <label for="username">Username:</label>
+              <input type="text" name="username" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" class="form-control" name="password">
+            </div>
+            <input class="btn center-block" type="submit"></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
